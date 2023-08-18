@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+div,
+li {
+  box-sizing: border-box;
+}
+
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0, 0, 0, .6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.section_inner {
+  padding: 50px 10% 30px;
+}
+
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+}
+
+.post-content {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.section_menu {
+  background-image: url('/images/sample_menu_bg.jpg');
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 50px 10% 30px;
+}
+
+.recommended_menu {
+  display: grid;
+  grid-template-columns: 49% 49%;
+}
+
+.recommended_card {
+  display: flex;
+  flex-direction: row;
+  padding: 90px;
+}
+
+.cafeTypes {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mini-cards {
+
+  width: 49%;
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.mini-cards img {
+  width: 20%;
+}
+
+.mini-cards div {
+  width: 80%;
+}
+
+.card-content {
+  padding: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.recommended_card img {
+  width: 55%;
+}
+
+.post-content p {
+  width: 60;
+}
+
+.post-content img {
+  width: 35%;
+}
+
+.contenido-header {
+  margin-top: 150px;
+}
+
+.key h1 {
+  font-size: 2.5rem;
+}
+
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.datosMaps {
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+dt {
+  width: 80px;
+}
+
+iframe {
+  width: 100%;
+}
+
+footer {
+  height: 75px;
+  color: white;
+  background-color: #42210b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerlogo { 
+  height: 30px;
+}
+
+.navItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navItems a { 
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+}
