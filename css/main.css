@@ -76,19 +76,25 @@ li {
 }
 
 .post-content {
-  margin-top: 25px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  place-items: center;
+display: flex;
 }
+
+
+.nombreContent {
+  width: 60%;
+}
+
+.imgContent {
+  width: 35%;
+}
+
 
 .section_menu {
   background-image: url('/images/sample_menu_bg.jpg');
   background-attachment: fixed;
-  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: bottom;
-  padding: 50px 10% 30px;
+  background-position: center;
+  background-size: cover;
 }
 
 .recommended_menu {
@@ -103,19 +109,35 @@ li {
 }
 
 .cafeTypes {
-  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.mini-cards {
-
-  width: 49%;
+.menuSection {
+  padding: 25px;
   display: flex;
-  margin: 20px;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  background-color: white;
+}
+
+.menuSectionDos {
+  margin-bottom: 25px;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+
+
+.menuCards {
+  padding: 25px ;
+}
+
+.mini-cards {
+  display: flex;
+  align-items: row;
 }
 
 .mini-cards img {
@@ -144,15 +166,6 @@ li {
 .recommended_card img {
   width: 55%;
 }
-
-.post-content p {
-  width: 60;
-}
-
-.post-content img {
-  width: 35%;
-}
-
 .contenido-header {
   margin-top: 150px;
 }
@@ -192,6 +205,14 @@ li {
 
 }
 
+.priceCard{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
 dt {
   width: 80px;
 }
@@ -203,7 +224,7 @@ iframe {
 footer {
   height: 75px;
   color: white;
-  background-color: #42210b;
+  background-color: #251e19;
   display: flex;
   flex-direction: column;
   align-items: center;
